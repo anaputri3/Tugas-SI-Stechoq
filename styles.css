@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header .navbar .logo a{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.header .navbar .menu ul{
+    margin-left: 490px;
+}
+
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.header .navbar .menu ul li a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.header .navbar .menu ul li a:hover{
+    color: darkred;
+}
+
+.header .banner {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    color: #fff;
+}
+
+.header .banner .app-text {
+    padding-left: 50px;
+}
+
+.header .banner .app-text h1{
+    font-size: 50px;
+    position: relative;
+    margin-top: 30px;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+.header .banner .app-text h1 span{
+    color: darkred;
+}
+
+.header .banner .app-text p{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.header .banner .app-text .text {
+    display: flex;
+}
+
+.header .banner .app-text .text img{
+    float: right;
+    width: 450px;
+    height: 250px;
+    align-items: center;
+    padding-right: 50px;
+}
